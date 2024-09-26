@@ -1,0 +1,31 @@
+.ban3{
+    margin-top: 25px;
+}
+
+
+.ach-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+  }
+
+  .ach-title::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: #ff6347;
+    margin: 10px auto 0;
+    border-radius: 5px;
+  }
+
+  .ach-img img{
+    height: 70vh;
+  }
+
+  .ach-sec{
+    margin: 70px 0px;
+  }

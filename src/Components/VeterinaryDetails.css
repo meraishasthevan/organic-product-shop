@@ -1,0 +1,90 @@
+.details-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    margin-top: 100px;
+    margin-bottom: 20px;
+
+    
+}
+
+.details-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+
+
+.details-container img.details-image {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.details-container p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    font-weight: 500;
+    
+}
+.details-container b{
+    color: red;
+    font-weight: 700;
+
+}
+.details-container .vet-desc{
+    color:black;
+    font-weight: 700;
+}
+
+.details-container strong {
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .details-container {
+        padding: 15px;
+    }
+
+    .details-container h1 {
+        font-size: 2rem;
+    }
+
+    .details-container p {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .details-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .details-container p {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 6px 12px;
+    }
+}
+
+
+.buy{
+    margin: 20px 0px;
+}

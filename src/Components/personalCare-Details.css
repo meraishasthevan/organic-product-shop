@@ -1,0 +1,66 @@
+.personal-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 800px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 100px;
+    /* background-color: #f9f9f9; */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    margin-bottom: 20px;
+
+}
+
+.personal-details-content {
+    text-align: center;
+   
+}
+
+
+
+.personal-details-image {
+    max-width: 50%;
+    height: 45vh;
+    border-radius: 8px;
+}
+
+.personal-details-name {
+    font-size: 2rem;
+    margin: 10px 0;
+    color: #333;
+    margin: 15px 0px;
+    font-weight: 700;
+}
+
+.personal-details-description {
+    font-size: 1.25rem;
+    margin: 10px 0;
+    color: black;
+    margin: 15px 0px;
+    font-weight: 700;
+}
+
+.personal-details-details {
+    font-size: 1rem;
+    margin: 15px 0;
+    line-height: 1.5;
+    margin: 15px 0px;
+    font-weight: 500;
+}
+
+.personal-details-price {
+    font-size: 1.5rem;
+    color: black;
+    margin: 15px 0px;
+    font-weight: 500;
+    line-height: 5vh;
+}
+
+.personal-details-not-found {
+    font-size: 1.2rem;
+    color: #dc3545;
+}

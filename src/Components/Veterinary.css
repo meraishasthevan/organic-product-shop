@@ -1,0 +1,147 @@
+.veterinary-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.vet-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    margin-top: 80px;
+}
+
+.vet-title::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: #ff6347;
+    margin: 10px auto 0;
+    border-radius: 5px;
+}
+
+
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: stretch;
+    padding: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    color: #333;
+    overflow: hidden;
+    padding: 15px;
+    height: 100%;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.cards-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-bottom: 1px solid #f0f0f0;
+    transition: transform 0.3s ease;
+    padding: 25px;
+}
+
+.card:hover .cards-image {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin: 15px 0 5px;
+    color: #333;
+    text-align: center;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.card-price {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 15px;
+    text-align: center;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.view-details-btn {
+    display: inline-block;
+    margin-top: auto;
+    padding: 10px 15px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.view-details-btn:hover {
+    background-color: #e5533d;
+}
+
+@media (max-width: 768px) {
+    .card-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .cards-image {
+        height: 150px;
+    }
+
+    .card-title {
+        font-size: 1.3rem;
+    }
+
+    .card-price {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-grid {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+
+    .vet-title {
+        font-size: 2rem;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
+
+    .card-price {
+        font-size: 0.9rem;
+    }
+}
