@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux'; 
 import 'font-awesome/css/font-awesome.min.css';
 import './navBar.css';
+import logo from '../images/logo.jpeg'
 
 const Navbar = () => {
     const cartItems = useSelector((state) => state.cartItems);
@@ -13,7 +14,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg fixed-top bk">
                 <div className="container-fluid container">
                     <Link className="navbar-brand" to="/">
-                      <img className='logo' src='https://marketplace.canva.com/EAF35WQednU/2/0/1600w/canva-black-and-green-flat-illustrated-organic-cosmetics-logo-v8R2bKxGXsY.jpg' alt="Logo" />
+                      <img className='logo' src={logo} alt="Logo" />
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>

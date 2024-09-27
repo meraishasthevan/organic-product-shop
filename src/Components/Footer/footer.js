@@ -1,12 +1,13 @@
 import React from 'react';
 import './footer.css';
+import logo from '../images/logo.jpeg';
 
 const Footer = () => {
     return (
         <div>
    <footer className="footer-container">
       <div className="footer-logo">
-        <img src='https://marketplace.canva.com/EAF35WQednU/2/0/1600w/canva-black-and-green-flat-illustrated-organic-cosmetics-logo-v8R2bKxGXsY.jpg' alt='logo' />
+        <img src={logo} alt='logo' />
       </div>
       <div className="footer-content">
         <div className="footer-section">
