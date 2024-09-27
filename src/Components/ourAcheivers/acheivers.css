@@ -29,3 +29,8 @@
   .ach-sec{
     margin: 70px 0px;
   }
+  @media(max-width:576px){
+    .ach-img img{
+      height:30vh;
+    }
+  }

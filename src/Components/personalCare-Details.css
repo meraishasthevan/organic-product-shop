@@ -7,7 +7,7 @@
     max-width: 800px;
     margin-left:auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 110px;
     /* background-color: #f9f9f9; */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
@@ -19,9 +19,6 @@
     text-align: center;
    
 }
-
-
-
 .personal-details-image {
     max-width: 50%;
     height: 45vh;

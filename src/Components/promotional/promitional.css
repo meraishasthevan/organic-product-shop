@@ -29,3 +29,8 @@
   .promo-img img{
     height:70vh;
   }
+  @media(max-width:576px){
+    .promo-img img{
+      height:30vh;
+    }
+  }

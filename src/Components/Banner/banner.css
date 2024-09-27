@@ -5,3 +5,8 @@
 .ban-images img{
     height:70vh;
 }
+@media (max-width:576px){
+    .ban-images img{
+        height:30vh;
+    }
+}
