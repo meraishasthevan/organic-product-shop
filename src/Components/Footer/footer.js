@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-section">
           <h6>About Us</h6>
-          <p>About unilink Marketing</p>
+          <p>About Marketing</p>
           <p>Grievance</p>
           <p>Events And Training</p>
           <p>Photo And Video Gallery</p>
